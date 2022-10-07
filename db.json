@@ -1,0 +1,102 @@
+{
+  "bag": [
+    {
+      "id": 1,
+      "name": "skybags",
+      "price": 1500,
+      "type": "b1",
+      "disamt": 0,
+      "quantity": 1,
+      "dis": "Medium 25 L Backpack DAYPACK Small Bags Backpack for daily use library office outdoor hiking Backpack  (Black)",
+      "img": "assets/bag2.webp"
+    },
+    {
+      "id": 2,
+      "name": "SAFARI",
+      "price": 1500,
+      "type": "b1",
+      "quantity": 1,
+      "disamt": 0,
+      "dis": "Medium 29 L Backpack SPREEUSB 19 CASUAL BACKPACK BLUE  (Green, Blue)",
+      "img": "assets/bag3.webp"
+    },
+    {
+      "id": 3,
+      "name": "AMERICAN TOURISTER",
+      "price": 1500,
+      "quantity": 1,
+      "type": "b1",
+      "disamt": 0,
+      "dis": "Medium 25 L Backpack DAYPACK Small Bags Backpack for daily use library office outdoor hiking Backpack  (Black)",
+      "img": "assets/bag1.webp"
+    }
+  ],
+  "book": [
+    {
+      "id": 4,
+      "type": "b2",
+      "name": "Classmate Pulse",
+      "price": 100,
+      "img": "assets/b1.webp",
+      "quantity": 3,
+      "discount": 0.1,
+      "disamt": 0,
+      "dis": "Classmate Pulse 6 Subject (267 X 203 mm) Spiral Regular Notebook Single Line 300 Pages  (Multicolor, Pack of 3)"
+    },
+    {
+      "id": 5,
+      "name": "LUXOR",
+      "type": "b2",
+      "price": 100,
+      "disamt": 0,
+      "img": "assets/b2.webp",
+      "quantity": 3,
+      "discount": 0.1,
+      "dis": "LUXOR Premium Exercise Regular Notebook Ruled 250 Pages  (Assorted, Pack of 3)"
+    },
+    {
+      "id": 6,
+      "name": "TORTUGA",
+      "price": 100,
+      "type": "b2",
+      "disamt": 0,
+      "img": "assets/b3.webp",
+      "quantity": 3,
+      "discount": 0.1,
+      "dis": "TORTUGA A5 Spiral Bound Notebook 120 GSM A5 Notebook Unruled 100 Pages  (Black, Pack of 3)"
+    }
+  ],
+  "sanitizer": [
+    {
+      "id": 7,
+      "name": "HIMALAYA",
+      "price": 250,
+      "quantity": 10,
+      "type": "b3",
+      "disamt": 0,
+      "dis": "HIMALAYA PureHands Lemon Hand Sanitizer Pump Dispenser  (500 ml)",
+      "img": "assets/s2.webp"
+    },
+    {
+      "id": 8,
+      "name": "Dettol",
+      "price": 250,
+      "type": "b3",
+      "disamt": 0,
+      "quantity": 10,
+      "dis": "Dettol Instant Pump Dispenser, Original Hand Sanitizer Bottle  (200 ml)",
+      "img": "assets/s3.webp"
+    },
+    {
+      "id": 9,
+      "name": "LIFEBUOY ",
+      "price": 250,
+      "disamt": 0,
+      "type": "b3",
+      "quantity": 10,
+      "dis": "LIFEBUOY Total Sanitizer Hand Sanitizer Pump Dispenser  (0.5 L)",
+      "img": "assets/s4.webp"
+    }
+  ]
+ 
+}

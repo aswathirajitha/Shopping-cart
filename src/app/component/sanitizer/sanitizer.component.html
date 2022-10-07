@@ -1,0 +1,27 @@
+
+<div class="container">
+	<div class="row">
+	<div class="col-md-4" *ngFor = "let item of sanitizer">
+    <h4 class="text-center"><strong>{{item.name}}</strong></h4>
+    <hr>
+    <div class="profile-card-4 text-center"><img src="{{item.img}}" class="img img-responsive">
+        <div class="profile-content">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>{{item.dis}}</p>
+                    </div>
+                    <div class="price">
+                        <p>price</p>
+                        <h4>{{item.price}}</h4>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" (click)="add(item)">
+                        Add to cart
+                    <i class="fa fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>

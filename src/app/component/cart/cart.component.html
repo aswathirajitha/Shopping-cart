@@ -1,0 +1,39 @@
+
+<div id="container" *ngFor = "let item of cart">	
+			
+	<div class="product-details">	
+        <h1>{{item.name}}</h1>
+         <p>{{item.dis}}</p>
+
+         <div >
+            <button type="button" (click)="min(item)"><i class="fa fa-minus"></i></button>
+             <span class="form-group col-md-3" >{{item.quantity}}</span>
+            <button type="button" (click)="plus(item)"><i class="fa fa-plus"></i></button>
+            <span></span>
+        </div>
+    </div>	
+
+   
+
+<div class="control" >	
+	 <span class="price">{{(item.price)*(item.quantity)}} Rs</span>	
+</div>
+		
+<!-- <button type="button" class="btn btn-primary" routerLink="buy" >
+    <i class="fa fa-shopping-cart"style="font-size: 20px;" aria-hidden="true" (click)="buy(item)"> BUY</i>
+</button> -->
+
+
+<button class="btn" routerLink="buy">
+    <i class="fa fa-shopping-cart" (click)="buy(item)"> BUY</i>
+</button>
+
+
+
+
+<div class="product-image">	
+	<img src="{{item.img}}" alt="">
+</div>
+</div>
+<router-outlet></router-outlet>
+

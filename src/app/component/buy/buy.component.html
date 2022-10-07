@@ -1,0 +1,30 @@
+<h2>BUY ITEMS</h2>
+<div class="table-wrapper">
+    <table class="table" >
+        <thead>
+        <tr>
+            <th>img</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total Price</th>
+            <th>DiscountPrice</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody *ngFor = "let item of buy">
+        <tr>
+            <td><div class="image">	<img src="{{item.img}}" style="width: 50px; height: 100px;" alt=""></div></td>
+            <td>{{item.name}}</td>
+            <td>{{item.quantity}}</td>
+            <td>{{item.price}}</td>
+            <td>{{(item.price)*(item.quantity)}}</td>
+            <td><b>{{item.disamt}}</b></td>
+            <td><button class="btn1"><i class="fa fa-trash" ></i> Trash</button></td>
+
+            
+        </tr>
+       
+        <tbody>
+    </table>
+</div>
