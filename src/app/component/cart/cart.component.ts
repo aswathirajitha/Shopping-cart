@@ -13,10 +13,8 @@ export class CartComponent implements OnInit {
   tot : any;
   constructor(private api:ServiceService) { }
 
-  ngOnInit(): void {
-   
-    this.cart=this.api.getproduct()
-   
+  ngOnInit(): void {  
+    this.cart=this.api.getproduct()  
   }
 
   min(item:any){

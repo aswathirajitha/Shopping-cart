@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServiceService } from 'src/app/service.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  len : number=0;
+  constructor(private api:ServiceService) { }
 
   ngOnInit(): void {
+    this.len=this.api.length()  
+    console.log(this.len)
   }
 
 }

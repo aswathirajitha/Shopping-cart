@@ -45,4 +45,7 @@ export class ServiceService {
    
   }
   
+  length(){
+    return this.cartlist.length
+  }
 }
